@@ -15,3 +15,4 @@
 - Prevent click bubbling up
 - Improve calculation distances
 - Fix ugly colors
+- Typescript

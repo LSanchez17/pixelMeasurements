@@ -1,0 +1,22 @@
+{
+  "name": "Element Distance Tracker",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Click an element and measure pixel distances to other elements.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E"
+      },
+      "description": "Toggle Element Distance Tracker"
+    }
+  },
+  "action": {
+    "default_title": "Start Distance Tracker"
+  }
+}
